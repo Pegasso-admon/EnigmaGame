@@ -27,7 +27,7 @@ box-shadow: 0 0 30px rgb(255, 94, 0);
     width: 100px;
     height: 100px;
     text-decoration: none;
-    padding: 3vh 0;
+    padding: 5vh 0;
 }
 .arrow {
     color: whitesmoke;
@@ -35,9 +35,6 @@ box-shadow: 0 0 30px rgb(255, 94, 0);
     font-size: 4rem;
     font-weight: bold;
 }
-
-
-
 
 .video-container {
     position: relative;

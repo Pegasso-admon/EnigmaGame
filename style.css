@@ -8,6 +8,10 @@
     font-family: 'VT323', monospace;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 :root {
     --primary-color: #ff5e00;
     --secondary-color: whitesmoke;
