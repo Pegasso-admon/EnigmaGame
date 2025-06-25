@@ -64,6 +64,7 @@ box-shadow: 0 0 30px rgb(255, 94, 0);
     font-family: var(--font-title);
     padding: 3vh 3vw;
     animation: pulse 1.2s infinite ease-in-out;
+    text-decoration: none;
 }
 
 .prologue__next--border:hover {
