@@ -179,6 +179,11 @@ img {
     border-radius: 20px;
     height: 80vh;
     width: 80vw;
+    gap: 2vh;
+}
+
+.level__description--dialogue {
+    font-style: italic;
 }
 
 .level__next {
@@ -187,8 +192,10 @@ img {
     padding: 3vh 3vw;
     animation: pulse 1.2s infinite ease-in-out;
     text-decoration: none;
+    
 }
 
 .level__next--border:hover {
     cursor: pointer;
+    font-weight: bold;
 }
