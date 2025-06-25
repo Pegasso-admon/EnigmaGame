@@ -199,3 +199,22 @@ img {
     cursor: pointer;
     font-weight: bold;
 }
+
+.level__doors {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.door {
+    height: 50vh;
+    transition: transform 0.4s ease
+}
+
+.door img {
+    border-radius: 20px;
+}
+
+.door:hover {
+    transform: scale(1.1);
+}
