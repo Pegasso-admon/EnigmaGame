@@ -14,7 +14,7 @@ body {
     align-items: center;
 }
 
-.prologue_container {
+.prologue__container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +24,7 @@ body {
     width: 80vw;
 }
 
-.prologue_arrow {
+.prologue__arrow {
     width: 100px;
     height: 100px;
     text-decoration: none;
@@ -37,7 +37,7 @@ body {
     font-weight: bold;
 }
 
-.prologue_text {
+.prologue__text {
     padding: 7vh 7vw;
     color: whitesmoke;
     font-size: 2rem;
@@ -48,6 +48,6 @@ body {
     width: 80vw;
 }
 
-.prologue_description {
+.prologue__description {
     gap: 5vh 0;
 }
