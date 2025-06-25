@@ -24,6 +24,13 @@ body {
     width: 80vw;
 }
 
+.prologue_video {
+width: 70%;
+max-height: 70vh;
+border-radius: 15px;
+box-shadow: 0 0 30px rgb(255, 94, 0);
+}
+
 .prologue__arrow {
     width: 100px;
     height: 100px;
@@ -62,3 +69,4 @@ body {
 .prologue__next--border:hover {
     cursor: pointer;
 }
+
