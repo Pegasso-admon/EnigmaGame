@@ -154,3 +154,15 @@ img {
     border-radius: 10px;
     animation: pulse 1.2s infinite ease-in-out;
 }
+
+.level__next {
+    color: var(--secondary-color);
+    font-family: var(--font-title);
+    padding: 3vh 3vw;
+    animation: pulse 1.2s infinite ease-in-out;
+    text-decoration: none;
+}
+
+.level__next--border:hover {
+    cursor: pointer;
+}
