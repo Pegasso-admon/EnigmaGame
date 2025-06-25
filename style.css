@@ -177,7 +177,7 @@ img {
     text-align: left;
     background-color: rgba(0, 0, 0, 0.637);
     border-radius: 20px;
-    height: 80vh;
+    height: auto;
     width: 80vw;
     gap: 2vh;
 }
