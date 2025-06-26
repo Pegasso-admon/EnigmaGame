@@ -10,7 +10,7 @@
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 :root {
     --primary-color: #ff5e00;
@@ -117,23 +117,56 @@ img {
     animation: fadeIn 0.4s ease forwards;
 }
 
-.div1 .miss-minutes { animation-delay: 0s; }
-.div2 .miss-minutes { animation-delay: 0.1s; }
-.div3 .miss-minutes { animation-delay: 0.2s; }
-.div4 .miss-minutes { animation-delay: 0.3s; }
-.div5 .miss-minutes { animation-delay: 0.4s; }
-.div6 .miss-minutes { animation-delay: 0.5s; }
-.div7 .miss-minutes { animation-delay: 0.6s; }
-.div8 .miss-minutes { animation-delay: 0.7s; }
-.div9 .miss-minutes { animation-delay: 0.8s; }
-.div10 .miss-minutes { animation-delay: 0.9s; }
-.div11 .miss-minutes { animation-delay: 1s; }
+.div1 .miss-minutes {
+    animation-delay: 0s;
+}
+
+.div2 .miss-minutes {
+    animation-delay: 0.1s;
+}
+
+.div3 .miss-minutes {
+    animation-delay: 0.2s;
+}
+
+.div4 .miss-minutes {
+    animation-delay: 0.3s;
+}
+
+.div5 .miss-minutes {
+    animation-delay: 0.4s;
+}
+
+.div6 .miss-minutes {
+    animation-delay: 0.5s;
+}
+
+.div7 .miss-minutes {
+    animation-delay: 0.6s;
+}
+
+.div8 .miss-minutes {
+    animation-delay: 0.7s;
+}
+
+.div9 .miss-minutes {
+    animation-delay: 0.8s;
+}
+
+.div10 .miss-minutes {
+    animation-delay: 0.9s;
+}
+
+.div11 .miss-minutes {
+    animation-delay: 1s;
+}
 
 @keyframes fadeIn {
     from {
         opacity: 0;
         transform: scale(1);
     }
+
     to {
         opacity: 1;
         transform: scale(1);
@@ -144,9 +177,11 @@ img {
     0% {
         transform: scale(1);
     }
+
     50% {
         transform: scale(1.05);
     }
+
     100% {
         transform: scale(1);
     }
@@ -192,7 +227,7 @@ img {
     padding: 3vh 3vw;
     animation: pulse 1.2s infinite ease-in-out;
     text-decoration: none;
-    
+
 }
 
 .level__next--border:hover {
