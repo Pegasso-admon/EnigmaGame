@@ -58,7 +58,9 @@ Javascript, HTML, CSS...
 ## Logic behind the code
 
 ```
-
+For each level containing doors, a separate HTML file was created to handle the player's progression. Depending on
+the option selected by the player, they are redirected to a corresponding page. Each challenge includes the possibility
+of failure, which results in the end of the game.
 ```
 
 ## Authors
@@ -88,5 +90,9 @@ Javascript, HTML, CSS...
 ## What we learned
 
 ```
+We put into practice key JavaScript concepts such as manipulation of the DOM, the use of conditionals, and various control
+structures to manage game logic and user interaction. Additionally, this project allowed us to reinforce and deepen our
+understanding of the concepts introduced in the previous module, including the structure and styling of web pages using HTML
+and CSS. This integration of front-end technologies was essential to develop an interactive and visually coherent user experience.
 
 ```
