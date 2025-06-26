@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?></title>
+    <title>
+        <?></title>
     <link rel="stylesheet" href="../../style.css">
     <link rel="stylesheet" href="./level03.css">
     <link rel="shortcut icon"
@@ -28,10 +30,21 @@
                 <p class="level__description">One of us guessed.</p>
                 <p class="level__description">His collar sparked… and his head slumped forward.</p>
                 <p class="level__description">No time to mourn, the next pattern began.</p>
+                <div id="crudymessage"></div>
+                <div id="pattern" class="hidden"></div>
+
+                <div id="question" class="hidden">
+                  <p>What was the second color of the pattern?</p>
+                  <button onclick="checkAnswer('blue')">Blue</button>
+                  <button onclick="checkAnswer('red')">Red</button>
+                  <button onclick="checkAnswer('green')">Green</button>
+                </div>
+
+                <div id="result"></div>
+                <button class="level__next hidden">Continue</button>
             </div>
-            <a href="../level04/level04.html" class="level__next level__next--border">Continue</a>
         </section>
     </main>
-<script src="../../src/scripts/app.js"></script>
+<script src="./level03.js"></script>
 </body>
 </html>
