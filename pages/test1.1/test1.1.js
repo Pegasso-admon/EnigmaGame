@@ -14,7 +14,8 @@ button.addEventListener("click", () => {
     }
 
     if (userGuess <= 0 || userGuess > 10) {
-        message.textContent = "Please enter a valid number."
+        message.textContent = "Please enter a valid number.";
+        return;
     }
 
     attempts--;
