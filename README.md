@@ -1,3 +1,4 @@
+![Static Badge](https://img.shields.io/badge/Status-🚧_In_Progress-orange)
 
 # Enigma Games by Enigma
 
@@ -27,7 +28,7 @@ Javascript, HTML, CSS...
 3. To try it:
 ---
 ```
-    Click on "Start" and begin making your choices
+    https://pegasso-admon.github.io/EnigmaGame/
 ```
 
 
@@ -56,14 +57,13 @@ Javascript, HTML, CSS...
 
 ## Logic behind the code
 
+```
 
-
-
-
+```
 
 ## Authors
 
-- [@Pegasso-admon](https://github.com/Pegasso-admon) - Samuel Rosero Alvarez 
+- [@Pegasso-admon](https://github.com/Pegasso-admon) - Samuel Rosero Alvarez (Leader)
 ```
     - Story
     - Frontend
@@ -90,7 +90,3 @@ Javascript, HTML, CSS...
 ```
 
 ```
-
-
-## Status
-
