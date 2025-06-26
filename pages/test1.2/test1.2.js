@@ -14,11 +14,11 @@ button.addEventListener("click", () => {
 
     if (userInput === correctAnswer) {
         message.textContent = "Correct! You win.";
-        window.location.href = "../level03/level03.html";
+        window.location.href = "../level02/level02.html";
     } else {
         attempts--;
         if (attempts > 0) {
-            message.textContent = `Incorrect answer. You have ${attempts} attempt(s) left.`;
+            message.textContent = `Incorrect answer. You have ${attempts} attempt(s) left.`;    
         } else {
             message.textContent = "You have used all your attempts.";
             window.location.href = "../death02/death02.html";
